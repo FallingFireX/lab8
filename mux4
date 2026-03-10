@@ -5,10 +5,10 @@ module mux4(
     input [3:0] jill,
     input [1:0] sel,
     input en,
-    output [3:0] out
+    output [3:0] Y
 );
 
-assign out =
+assign Y =
     (en == 0) ? 4'b0000 :
     (sel == 2'b00) ? ceo :
     (sel == 2'b01) ? you :
