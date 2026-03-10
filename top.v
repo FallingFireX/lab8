@@ -22,10 +22,11 @@ demux4 D1(
     .in(line),
     .sel({btnR, btnD}),
     .en(btnC),
-    .library(led[3:0]),
+    .local_lib(led[3:0]),
     .fire(led[7:4]),
     .school(led[11:8]),
     .rib(led[15:12])
 );
 
 endmodule
+
