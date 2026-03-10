@@ -1,6 +1,6 @@
 module simple_4_mux(
     input [1:0] Sel,
-  input [3:0] CEO, [7:4] SELF, [11:8] FRED, [15:12] JILL, Enable,
+    input  CEO,  SELF, FRED, JILL, Enable, sw[15:0],
     output Y
 );
 
@@ -10,3 +10,4 @@ module simple_4_mux(
               JILL &  Sel[0] &  Sel[1] |) & Enable;
 
 endmodule
+
