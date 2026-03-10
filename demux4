@@ -2,7 +2,7 @@ module demux4(
     input [3:0] in,
     input [1:0] sel,
     input en,
-    output [3:0] library,
+    output [3:0] local_lib,
     output [3:0] fire,
     output [3:0] school,
     output [3:0] rib
