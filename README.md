@@ -14,7 +14,7 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Names
 
 ## Summary
-In this lab, we successfully implemented a muliplexer and demultiplexer to send "high speed internet" to the 
+In this lab, we successfully implemented a muliplexer and demultiplexer to send "high speed internet" to the town of four people. We did this by implementing a MUX with the library, the initial link to the internet, with four inputs (the townspeople) who can openly switch their line to connect to the library. The second part of this assignment was to implement a DEMUX for the other establishments in our imaginary town. We had to create 4 outputs to represent the businesses, with the switch acting as the data from the townsfolk switching from business to business. 
 
 ## Lab Questions
 
